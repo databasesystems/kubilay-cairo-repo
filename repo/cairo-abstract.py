@@ -4,12 +4,12 @@ import random
 import itertools
 import numpy as np
 
-n = 350
+n = 700
 x = 350
 y = 350
 WIDTH = x
 HEIGHT = y
-PIXEL_SCALE = 20
+PIXEL_SCALE = 2
 
 surface = cairo.ImageSurface(cairo.FORMAT_RGB24,
                              WIDTH*PIXEL_SCALE,
@@ -32,20 +32,16 @@ print('d0 is:',d0)
 df = list(set(zip(d0,c0)))
 print('df is: ',df)
 
-
 def circle(xc,yc):
     ctx.set_source_rgb(1, 1, 1)
     ctx.arc(xc+0.5, yc+0.5,0.5, 0, 2 * math.pi)
     #ctx.rectangle(xc, yc, 1, 1)
     #ctx.arc(2, 1, 0.5, 0, 2 * math.pi)
 
-
 def box(xc,yc):
     ctx.set_source_rgb(0, 0, 0)
     ctx.rectangle(xc, yc, 1, 1)
     #ctx.arc(xc, yc, 0.5, 4, 2 * math.pi)
-
-
 
 for xc,yc in df:
     mylist = [circle,box]
@@ -63,8 +59,8 @@ for xc,yc in df:
         ctx.fill_preserve()
         ctx.fill()
 
-    #ctx.stroke()
+ # ctx.stroke()
  # ctx.set_source_rgb(0.1, 0.1, 0.1)
 
 # End of drawing code
-surface.write_to_png('/home/kubilay/repo/abstract2.png')
+surface.write_to_png('/home/kubilay/repo/abstract3.png')
