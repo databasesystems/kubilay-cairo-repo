@@ -1,15 +1,16 @@
+# musings with cairo by Kubilay Tsil Kara, almost nfts :-)
 import cairo
 import math
 import random
 import itertools
 import numpy as np
 
-n = 700
-x = 350
-y = 350
+n = 450
+x = 1350
+y = 1350
 WIDTH = x
 HEIGHT = y
-PIXEL_SCALE = 2
+PIXEL_SCALE = 1
 
 surface = cairo.ImageSurface(cairo.FORMAT_RGB24,
                              WIDTH*PIXEL_SCALE,
@@ -35,22 +36,18 @@ print('df is: ',df)
 def circle(xc,yc):
     ctx.set_source_rgb(1, 1, 1)
     ctx.arc(xc+0.5, yc+0.5,0.5, 0, 2 * math.pi)
-    #ctx.rectangle(xc, yc, 1, 1)
-    #ctx.arc(2, 1, 0.5, 0, 2 * math.pi)
+  
 
 def box(xc,yc):
     ctx.set_source_rgb(0, 0, 0)
     ctx.rectangle(xc, yc, 1, 1)
-    #ctx.arc(xc, yc, 0.5, 4, 2 * math.pi)
+  
 
 for xc,yc in df:
     mylist = [circle,box]
     ctx.move_to(xc, xc)
-    #myfunc = mylist(xc,yc)
     np.random.choice(mylist,p=[0.4, 0.6])(xc,yc)
     if circle in mylist:
-    #print(y)
-    #circle(xc,yc)
         ctx.close_path()
         ctx.fill_preserve()
         ctx.fill()
@@ -58,9 +55,6 @@ for xc,yc in df:
         ctx.close_path()
         ctx.fill_preserve()
         ctx.fill()
-
- # ctx.stroke()
- # ctx.set_source_rgb(0.1, 0.1, 0.1)
 
 # End of drawing code
 surface.write_to_png('/home/kubilay/repo/abstract3.png')
