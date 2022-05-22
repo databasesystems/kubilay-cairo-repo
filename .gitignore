@@ -4,3 +4,6 @@
 /.profile
 /.ssh
 /.vscode-server
+/.cache
+/.local
+/.bash_logout
