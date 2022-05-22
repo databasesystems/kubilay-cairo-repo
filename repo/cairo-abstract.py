@@ -6,8 +6,8 @@ import itertools
 import numpy as np
 
 n = 450
-x = 1350
-y = 1350
+x = 800
+y = 800
 WIDTH = x
 HEIGHT = y
 PIXEL_SCALE = 1
