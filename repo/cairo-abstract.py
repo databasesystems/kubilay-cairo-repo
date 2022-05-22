@@ -1,4 +1,4 @@
-# musings with cairo by Kubilay Tsil Kara, almost nfts :-)
+# musings with cairo by Kubilay Tsil Kara
 import cairo
 import math
 import random
