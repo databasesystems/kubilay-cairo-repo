@@ -37,4 +37,4 @@ WORKDIR /home/kubilay/repo
 
 This is the output of my caior library
 
-![abstract 1]([https://github.com/[username]/[reponame]/blob/[branch]/image.jpg](https://github.com/databasesystems/kubilay-cairo-repo/blob/master/repo/abstract1.png)?raw=true)
+![abstract 1](https://github.com/databasesystems/kubilay-cairo-repo/blob/master/repo/abstract1.png)?raw=true)
