@@ -38,10 +38,13 @@ WORKDIR /home/kubilay/repo
 This is the output of my python cairo library
 
 abstract1.png
-<img src="https://github.com/databasesystems/kubilay-cairo-repo/blob/master/repo/abstract1.png?raw=true" width="100" height="100" />
+<img src="https://github.com/databasesystems/kubilay-cairo-repo/blob/master/repo/abstract1.png?raw=true" width="200" height="200" />
 
 abstract2.png
-![abstract 2](https://github.com/databasesystems/kubilay-cairo-repo/blob/master/repo/abstract2.png?raw=true)
+<img src="https://github.com/databasesystems/kubilay-cairo-repo/blob/master/repo/abstract2.png?raw=true" width="200" height="200" />
 
 abstract3.png
-![abstract 3](https://github.com/databasesystems/kubilay-cairo-repo/blob/master/repo/abstract3.png?raw=true)
+<img src="https://github.com/databasesystems/kubilay-cairo-repo/blob/master/repo/abstract3.png?raw=true" width="200" height="200" />
+
+
+
