@@ -6,12 +6,12 @@ import random
 import itertools
 import numpy as np
 
-n = 450
+n = 800
 x = 800
 y = 800
 WIDTH = x
 HEIGHT = y
-PIXEL_SCALE = 10
+PIXEL_SCALE = 1
 
 surface = cairo.ImageSurface(cairo.FORMAT_RGB24,
                              WIDTH*PIXEL_SCALE,
