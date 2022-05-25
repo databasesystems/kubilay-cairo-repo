@@ -39,15 +39,15 @@ This is the output of my python cairo library
 
 <table><tr>
   <td>
-abstract1.png
+abstract1.png<br>
 <img src="https://github.com/databasesystems/kubilay-cairo-repo/blob/master/repo/abstract1.png?raw=true" width="200" height="200" />
   </td>
   <td>
-abstract2.png
+abstract2.png<br>
 <img src="https://github.com/databasesystems/kubilay-cairo-repo/blob/master/repo/abstract2.png?raw=true" width="200" height="200" />
   </td>
   <td>
-abstract3.png
+abstract3.png<br>
 <img src="https://github.com/databasesystems/kubilay-cairo-repo/blob/master/repo/abstract3.png?raw=true" width="200" height="200" />
   </td>
   </tr></table>
