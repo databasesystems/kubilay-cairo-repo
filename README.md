@@ -1,6 +1,6 @@
 # kubilay-cairo-repo
 
-Musings with python cairo library on vscode and remote containers and docker
+Musings with python cairo library on vscode and remote containers and docker to produce some abstract artwork. I have crated a container with the code below in which I've run python3 and the cairo library. Then I attached to the container via vscode and run the script.
 
 1. create a dockerfile like 
 
